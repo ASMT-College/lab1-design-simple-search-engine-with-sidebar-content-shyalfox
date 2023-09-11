@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse:separate;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablespan</title>
+</head>
+<body style="width: 100%;">
+    <div id="hello" style="display: flex;justify-content: center;align-items: center;">
+
+
+        <table style="margin-bottom: 200px;">
+            <colgroup>
+            <col span="2" style="background-color: beige;">
+            </colgroup>
+            <tr>
+                <th colspan="2"><h1>A</h1></th>
+            
+            </tr>
+            <tr>
+                <td><h1>B</h1></td>
+                <td><h1>C</h1></td>
+            
+            </tr>
+        </table>
+        
+        <table style="background-color: blanchedalmond;">
+                <tr>
+                    <th rowspan="2" ><h1>A</h1></th>
+                    <td ><h1>B</h1></td>
+                </tr>
+                <tr>
+                    <td><h1>C</h1></td>
+                </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
